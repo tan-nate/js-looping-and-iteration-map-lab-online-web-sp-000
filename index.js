@@ -13,6 +13,6 @@ function nameToAttributes(names) {
 
 function attributesToPhrase(names) {
   return names.map(function (name) {
-    return "${name.name} is from ${name.hometown}";
+    return name.name
   });
 }
