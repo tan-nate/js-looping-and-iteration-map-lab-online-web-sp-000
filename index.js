@@ -6,7 +6,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(names) {
-  return name.map(function (name) {
+  return names.map(function (name) {
     return Object.assign({}, { firstName: name.split(" ")[0], lastName: name.split(" ")[1] },);
   });
 }
